@@ -27,6 +27,7 @@ public class MyProgram
         System.out.println("There are two paths.");
         System.out.println("1) Enter the jungle");
         System.out.println("2) Explore the beach");
+        System.out.println("3) Enter the water");
         System.out.println("Choose a path: ");
         choice = input.nextInt();
         
@@ -124,7 +125,15 @@ public class MyProgram
                 System.out.println("ENDING: The parrot is made.");
             }
         }
-        
+
+        //Water Path
+        else if(choice == 3)
+        {
+            System.out.println("You go into the water.");
+            System.out.println("A mermaid grabs a hold of you and plunge into the water.");
+            System.out.println("ENDING: You drowned");
+        }
+            
         //Invalid Path
         else
         {
